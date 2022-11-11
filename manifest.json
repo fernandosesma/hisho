@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Hisho",
+    "description": "Google Calendar plugin creating anime event flairs using MAL's API",
+    "version": "0.1.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "/resources/images/icon16.png",
+        "48": "/resources/images/icon48.png",
+        "128": "/resources/images/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://calendar.google.com/calendar/*"
+            ],
+            "js": ["main.js"]
+        }
+    ]
+}
