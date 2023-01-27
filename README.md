@@ -30,12 +30,12 @@ You can specify anything else in the event title and description.
 
 Follow the steps below to work with the project on your local machine. You may utilize the command line or your favorite IDE.
 
-| Objective | Command(s) |
+| Objective | Command(s)/Step(s) |
 | --------- | ---------- |
-| Navigate to desired directory on local machine | `cd PATH/TO/DESIRED/DIRECTORY` |
+| Navigate to desired directory on your local machine | `cd PATH/TO/DESIRED/DIRECTORY` |
 | Clone *Hisho* repository | `git clone https://github.com/fernandosesma/hisho.git` |
 | Set your MAL username | <ol><li>Navigate to `main.js` in your text editor of choice</li><li>Change the value of `MAL_USERNAME` to your username</li></ol> |
-| Set Google Chrome Extensions to Developer mode and update | <ol><li>`start chrome`</li><li>Navigate to *chrome://extensions/*</li><li>Press "Update"</li></ol> |
+| Set Google Chrome Extensions to Developer mode, add the extension, and update | <ol><li>`start chrome`</li><li>Navigate to *chrome://extensions/*</li><li>Click "Load unpacked" and select the code repository's directory on your local machine</li><li>Press "Update"</li></ol> |
 | Go to Google Calendar | Open another tab and navigate to *calendar.google.com* |
 
 From here, any changes you make to source code will be reflected upon saving and reloading the extension in *chrome://extensions/*. You can check if your anime watchlist data is syncing correctly by using **F12 > Application > Local Storage**. Local Storage can be cleared at anytime so that data may be resynced from scratch.
